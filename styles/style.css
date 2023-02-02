@@ -161,12 +161,14 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  margin: 60px auto;
+  margin: 60px auto 100px;
+ 
 
 
 }
 .table-cell {
-max-width: 250px;
+width: 250px;
+margin-top: 60px;
 }
 .table__heading {
   font-size: 24px;
