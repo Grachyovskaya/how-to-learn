@@ -80,7 +80,7 @@
   width: 765px;
 }
 
-.discription {
+.description {
   margin-top: 100px;
 }
 
@@ -127,7 +127,7 @@
   margin-bottom: 100px;
 }
 
-.section_title {
+.section-title {
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
@@ -156,7 +156,7 @@
   margin: 60px auto 100px;
 }
 
-.table-cell {
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
@@ -190,7 +190,7 @@
   padding: 0 20%;
 }
 
-.feynman__subbitle {
+.feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -198,7 +198,7 @@
   margin: 70px 0px 0px;
 }
 
-.feyman__link {
+.feynman__link {
   position:absolute;
   top: 50%;
   right: 48px;
@@ -296,7 +296,7 @@
   flex-basis: 711px;
   }
 
-.logo_footer {
+.logo_place-footer {
   background-image: url(../images/logo_place_footer.svg);
   top: 30px;
   left: 64px;
