@@ -77,11 +77,11 @@
 .header__main-illustration {
   background-size: cover;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
   height: 608px;
   width: 765px;
-  object-fit: scale-downж
+  object-fit: cover;
+  right: 0px;
+  bottom: 0px;
 }
 
 .description {
@@ -188,12 +188,16 @@
   height: 890px;
   background: #F2F2F2;
   position: relative;
+  z-index: -1;
   
 }
-img.feynman {
+.feynman>img {
  position: absolute;
-
+ left: 0;
+ bottom: 0;
+ z-index: -1;
 }
+
 
 .feynman__title {
   text-align: center;
@@ -212,6 +216,7 @@ img.feynman {
   font-weight: normal;
   text-align: center;
   margin: 70px 0px 0px;
+  z-index: 1;
 }
 
 .feynman__link {
@@ -223,6 +228,7 @@ img.feynman {
   font-weight: normal;
   color: #2F80ED;
   text-decoration: none;
+  z-index: 1;
 }
 
 .kaufman {
@@ -313,6 +319,7 @@ img.feynman {
   }
 
 .logo_place-footer {
+  display: flex;
   background-image: url(../images/logo_place_footer.svg);
   top: 30px;
   left: 64px;
@@ -345,7 +352,9 @@ img.feynman {
   }
 
 .footer__column-links {
-  padding: 0px;
+  padding: 0;
+  margin: 0;
+
   }
   
 .footer__link {
