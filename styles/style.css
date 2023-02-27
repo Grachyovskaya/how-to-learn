@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -17,7 +17,7 @@
   min-height: 600px;
   max-height: 756px;
   align-items: center;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   overflow: hidden;
   /* выше установили ограничения для секции */
 }
@@ -47,7 +47,7 @@
   position: absolute;
   bottom: 30px;
   font-size: 18px;
-  line-height:25px;
+  line-height: 25px;
   width: 338px;
   left: 64px;
   font-weight: normal;
@@ -57,7 +57,7 @@
 }
 
 .header__link {
-  color: #2F80ED;
+  color: #2f80ed;
   content: \2192;
   cursor: pointer;
   text-decoration: none;
@@ -65,7 +65,7 @@
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  background-color: #2F80ED;
+  background-color: #2f80ed;
   height: 568px;
   width: 568px;
   top: 64px;
@@ -100,7 +100,7 @@
   min-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color: #2F80ED;
+  color: #2f80ed;
   margin: 0;
   padding: 0;
 }
@@ -186,18 +186,15 @@
 
 .feynman {
   height: 890px;
-  background: #F2F2F2;
+  background: #f2f2f2;
   position: relative;
-
-  
 }
 .feynman__image {
- position: absolute;
- left: 0px;
- bottom: 0px;
- z-index: 1;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1;
 }
-
 
 .feynman__title {
   position: relative;
@@ -222,16 +219,15 @@
 }
 
 .feynman__link {
-  position:absolute;
+  position: absolute;
   top: 50%;
   right: 48px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  color: #2F80ED;
+  color: #2f80ed;
   text-decoration: none;
   z-index: 2;
-  
 }
 
 .kaufman {
@@ -242,7 +238,7 @@
 }
 
 .section-title_theme-dark {
-  color: #F2F2F2;
+  color: #f2f2f2;
   position: relative;
   text-align: center;
   font-size: 60px;
@@ -254,7 +250,7 @@
 }
 
 .section-subtitle_theme_dark {
-  color: #F2F2F2;
+  color: #f2f2f2;
   position: relative;
   z-index: 1;
   text-align: center;
@@ -263,32 +259,32 @@
   font-weight: normal;
   min-width: 60%;
   margin-top: 20px;
-  } 
+}
 
 .table_theme_dark {
   padding: 0px auto;
   grid-auto-flow: row;
-  }
+}
 
-  /* и элемента с модификатором вида ключ-значение */
+/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   display: grid;
   max-width: 200px;
   color: white;
   z-index: 1;
-  }
+}
 
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  }
+}
 
 .table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  }
+}
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
@@ -299,14 +295,14 @@
   top: 0;
   right: -210px;
   z-index: 0;
-  }
+}
 
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
   box-sizing: border-box;
   padding: 60px 0px 40px;
-  }
+}
 
 .footer__columns {
   display: flex;
@@ -314,12 +310,12 @@
   width: 90%;
   margin: auto;
   flex-basis: 711px;
-  }
+}
 
 .footer__column_content_copyright {
   position: relative;
   flex-basis: 711px;
-  }
+}
 
 .logo_place-footer {
   display: flex;
@@ -328,13 +324,13 @@
   left: 64px;
   width: 228px;
   height: 32px;
-  }
+}
 
 .footer__author {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  color: #F2F2F2;
+  color: #f2f2f2;
   margin: 18px 0px;
   position: relative;
   top: 170px;
@@ -342,45 +338,42 @@
 
 .footer__columns_info {
   display: flex;
-  }
-  
-.footer__column_content_info{
+}
+
+.footer__column_content_info {
   margin-right: 200px;
-  }
+}
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
-  color: #F2F2F2;
-  }
+  color: #f2f2f2;
+}
 
 .footer__column-links {
   padding: 0;
   margin: 0;
+}
 
-  }
-  
 .footer__link {
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  color: #F2F2F2; 
-  }
+  color: #f2f2f2;
+}
 
 .footer__column_content_social {
   margin-right: 16px;
-  }
- 
+}
+
 .footer__column-link {
   display: block;
   list-style-type: none;
-  }
+}
 
 .footer__social-icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
-  }
-
-
+}
