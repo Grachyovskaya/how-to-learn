@@ -22,7 +22,7 @@
   /* выше установили ограничения для секции */
 }
 
-.logo_place-header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -236,7 +236,7 @@
   padding: 90px 0px;
 }
 
-.section-title_theme-dark {
+.section-title_theme_dark {
   color: #f2f2f2;
   position: relative;
   text-align: center;
@@ -297,7 +297,6 @@
 }
 
 .footer {
-  display: flex;
   min-height: 350px;
   background-color: #1f1f1f;
   box-sizing: border-box;
@@ -305,6 +304,7 @@
 }
 
 .footer__columns {
+  display: flex;
   justify-content: space-between;
   width: 90%;
   margin: auto;
@@ -316,9 +316,8 @@
   flex-basis: 711px;
 }
 
-.logo_place-footer {
+.logo_place_footer {
   display: flex;
-  background-image: url(../images/logo_place_footer.svg);
   top: 30px;
   left: 64px;
   width: 228px;
