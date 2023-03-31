@@ -136,6 +136,42 @@
   font-weight: 600;
 }
 
+.techniques {
+  min-width: 80%;
+}
+
+.cards {
+  display: flex;
+  min-width: 920px;
+  flex-wrap: wrap;
+  margin: 0px auto;
+}
+
+.cards__item {
+  max-width: 920px;
+  margin: 60px 40px 43px;
+}
+
+.cards__image {
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.cards__title {
+  margin: 16px 0px 0px;
+  line-height: 1.15;
+  height: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
 .digits {
   margin: 0;
   padding: 0;
