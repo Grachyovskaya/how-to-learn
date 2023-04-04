@@ -72,15 +72,6 @@
   right: 0px;
   position: absolute;
   z-index: 0;
-  animation: rotation linear 20s infinite;
-}
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 .header__main-illustration {
@@ -310,7 +301,6 @@
   background-color: #f2f2f2;
   margin-top: 105px;
   padding-top: 100px;
-  height: 1200px;
 }
 
 .khan__container {
@@ -354,8 +344,10 @@
   margin-top: 68px;
 }
 .khan__book-pic {
+  height: 620px;
   width: 608px;
-  background-size: cover;
+  object-fit: cover;
+  object-position: center top;
   background-position: 0px 0px;
 }
 .khan__buy-link {
@@ -431,16 +423,8 @@
   top: 0;
   right: -210px;
   z-index: 0;
-  animation: rotation linear 20s infinite;
 }
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
 .resources {
   margin-top: 100px;
 }
