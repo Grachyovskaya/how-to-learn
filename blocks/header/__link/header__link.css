@@ -1,0 +1,6 @@
+.header__link {
+  color: #2f80ed;
+  content: \2192;
+  cursor: pointer;
+  text-decoration: none;
+}
