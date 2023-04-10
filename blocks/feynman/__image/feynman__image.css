@@ -1,5 +1,9 @@
 .feynman__image {
+  background-size: contain;
+  background-repeat: no-repeat;
   position: absolute;
+  width: 867px;
+  height: 637px;
   left: 0px;
   bottom: 0px;
   z-index: 1;
