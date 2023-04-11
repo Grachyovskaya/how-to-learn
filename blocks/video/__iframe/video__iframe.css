@@ -4,6 +4,7 @@
   height: 316px;
   z-index: 1;
   border-style: 0;
+  border: 0px;
 }
 
 .video__iframe:last-child {
