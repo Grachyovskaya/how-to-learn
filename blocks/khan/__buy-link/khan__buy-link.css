@@ -8,3 +8,7 @@
   align-self: flex-start;
   cursor: pointer;
 }
+.khan__buy-link:hover {
+  opacity: 0.4;
+  transition: 0.35s;
+}

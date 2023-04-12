@@ -1,3 +1,7 @@
 .resources__logo {
   cursor: pointer;
 }
+.resources__logo:hover {
+  opacity: 0.4;
+  transition: 0.35s;
+}

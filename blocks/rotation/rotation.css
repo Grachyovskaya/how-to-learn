@@ -1,4 +1,4 @@
-.figure {
+.rotation {
   animation: rotation linear 20s infinite;
 }
 @keyframes rotation {
